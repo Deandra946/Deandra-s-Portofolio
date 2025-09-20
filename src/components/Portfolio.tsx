@@ -3,7 +3,25 @@ import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { ExternalLink, Github, Eye, Code, Camera, PenTool, Database } from "lucide-react";
+import {
+  ExternalLink,
+  Github,
+  Eye,
+  Code,
+  Camera,
+  PenTool,
+  Database,
+} from "lucide-react";
+import project1 from "../assets/portofolio/1.png";
+import project2 from "../assets/portofolio/2.png";
+import project3 from "../assets/portofolio/3.jpg";
+import project4 from "../assets/portofolio/4.jpg";
+import project5 from "../assets/portofolio/5.jpg";
+import project6 from "../assets/portofolio/6.jpg";
+import project7 from "../assets/portofolio/7.png";
+import project8 from "../assets/portofolio/8.jpg";
+// import project2 from "figma:asset/portfolio/2.jpg";
+// Tambahkan sesuai jumlah gambar
 
 interface PortfolioItem {
   id: number;
@@ -20,84 +38,91 @@ interface PortfolioItem {
 const portfolioItems: PortfolioItem[] = [
   {
     id: 1,
-    title: "E-Learning Platform UI",
+    title: "Desain Landing page toko sepatu",
     category: "uiux",
-    image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMHV4JTIwZGVzaWdufGVufDF8fHx8MTc1ODI4NjUxNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Desain UI/UX untuk platform e-learning sekolah dengan fokus pada kemudahan navigasi dan pengalaman belajar yang optimal.",
+    image: project1,
+    description:
+      "Desain UI/UX untuk platform e-commerce saat menjadi peserta magang di Dieng Cyber Indonesia.",
     tech: ["Figma", "UI/UX Design", "Prototyping", "User Research"],
     liveUrl: "#",
-    type: "UI/UX Design"
+    type: "UI/UX Design",
   },
   {
     id: 2,
-    title: "Website Sekolah",
+    title: "Website Perusahaan",
     category: "uiux",
-    image: "https://images.unsplash.com/photo-1593720213681-e9a8778330a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGV8ZW58MXx8fHwxNzU4MjcyMzk2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Landing page website sekolah yang responsif dengan design modern dan informasi yang lengkap untuk calon siswa dan orangtua.",
+    image: project2,
+    description:
+      "Landing page perusahaan saat menjadi peserta magang di Dieng Cyber Indonesia",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     liveUrl: "#",
     githubUrl: "#",
-    type: "Web Development"
+    type: "Web Development",
   },
   {
     id: 3,
-    title: "Laravel Blog System",
-    category: "uiux",
-    image: "https://images.unsplash.com/photo-1607706189992-eae578626c86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXJhdmVsJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzU4MzIyNjQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Sistem blog sederhana menggunakan Laravel dengan fitur CRUD, authentication, dan admin panel untuk manajemen konten.",
+    title: "Dokumentasi Acara 17 Agustus oleh Anshor dusun Larangan",
+    category: "photography",
+    image: project3,
+    description:
+      "Tim dokumentasi acara 17 agustus 2025 oleh Anshor dusun larangan, yang mengadakan lomba layangan",
     tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "Blade"],
     githubUrl: "#",
-    type: "Web Development"
+    type: "Web Development",
   },
   {
     id: 4,
     title: "Dokumentasi Wisuda",
     category: "photography",
-    image: "https://images.unsplash.com/photo-1743446770828-180040aba491?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaG90b2dyYXBoeSUyMHBvcnRmb2xpb3xlbnwxfHx8fDE3NTgzMDYxNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Dokumentasi profesional acara wisuda dengan pengambilan angle yang tepat dan editing yang natural untuk mengabadikan momen berharga.",
-    tech: ["Photography", "Photo Editing", "Lightroom", "Photoshop"],
+    image: project4,
+    description: "Membantu mendokumentasikan teman saat wisuda.",
+    tech: ["Photography"],
     liveUrl: "#",
-    type: "Photography"
+    type: "Photography",
   },
   {
     id: 5,
-    title: "Acara Desa Annual",
+    title: "Dokumentasi Acara Dasa Sura",
     category: "photography",
-    image: "https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxldmVudCUyMHBob3RvZ3JhcGh5fGVufDF8fHx8MTc1ODMyMzIxN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Fotografi event tahunan desa dengan dokumentasi lengkap mulai dari persiapan hingga penutupan acara.",
-    tech: ["Event Photography", "Photo Editing", "Documentation"],
+    image: project5,
+    description:
+      "Fotografi event tahunan desa dengan dokumentasi lengkap mulai dari persiapan hingga penutupan acara.",
+    tech: ["Event Photography", "Documentation"],
     liveUrl: "#",
-    type: "Photography"
+    type: "Photography",
   },
   {
     id: 6,
-    title: "Artikel Tech Review",
+    title: "Menulis artikel",
     category: "copywriting",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwd3JpdGluZ3xlbnwxfHx8fDE3NTgzMjMyMTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Artikel review teknologi terbaru dengan bahasa yang mudah dipahami dan informasi yang akurat untuk pembaca awam.",
+    image: project6,
+    description:
+      "Menulis artikel tentang teknologi khususnya oprasi sistem di website Dieng Cyber Indonesia.",
     tech: ["Content Writing", "SEO Writing", "Research", "Tech Review"],
     liveUrl: "#",
-    type: "Copywriting"
+    type: "Copywriting",
   },
   {
     id: 7,
-    title: "Content Social Media",
-    category: "copywriting",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXNrJTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NTgzMjEzMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Pembuatan konten social media yang engaging untuk berbagai platform dengan strategi copywriting yang efektif.",
-    tech: ["Social Media", "Copywriting", "Content Strategy", "Canva"],
+    title: "Dokumentasi Akhirusannah TPQ",
+    category: "photography",
+    image: project8,
+    description:
+      "Tim dokumentasi Akhirusannah TPQ AN - NAHDHIYAH dusun larangan.",
+    tech: ["Event Photography", "Documentation"],
     liveUrl: "#",
-    type: "Copywriting"
+    type: "Copywriting",
   },
   {
     id: 8,
     title: "Sistem Data TPQ",
     category: "administration",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NTgzMjMyMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Digitalisasi sistem administrasi TPQ dari manual ke digital dengan database yang terstruktur dan laporan otomatis.",
+    image: project7,
+    description:
+      "Digitalisasi sistem administrasi TPQ dari manual ke digital dengan membuat aplikasi sederhana agar penginputan data lebih cepat dan simple.",
     tech: ["Excel", "Data Entry", "Database Design", "Administration"],
-    type: "Data Management"
-  }
+    type: "Data Management",
+  },
 ];
 
 const categories = [
@@ -105,15 +130,16 @@ const categories = [
   { name: "UI/UX & Web", value: "uiux", icon: Code },
   { name: "Photography", value: "photography", icon: Camera },
   { name: "Copywriting", value: "copywriting", icon: PenTool },
-  { name: "Administrasi", value: "administration", icon: Database }
+  { name: "Administrasi", value: "administration", icon: Database },
 ];
 
 export function Portfolio() {
   const [activeCategory, setActiveCategory] = useState("all");
 
-  const filteredItems = activeCategory === "all" 
-    ? portfolioItems 
-    : portfolioItems.filter(item => item.category === activeCategory);
+  const filteredItems =
+    activeCategory === "all"
+      ? portfolioItems
+      : portfolioItems.filter((item) => item.category === activeCategory);
 
   return (
     <section id="portfolio" className="py-20 bg-muted/30">
@@ -123,8 +149,9 @@ export function Portfolio() {
             Portofolio
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Kumpulan karya dan project yang telah saya kerjakan dalam berbagai bidang
-            mulai dari pengembangan web, desain UI/UX, fotografi, hingga copywriting.
+            Kumpulan karya dan project yang telah saya kerjakan dalam berbagai
+            bidang mulai dari pengembangan web, desain UI/UX, fotografi, hingga
+            copywriting.
           </p>
         </div>
 
@@ -133,7 +160,9 @@ export function Portfolio() {
           {categories.map((category) => (
             <Button
               key={category.value}
-              variant={activeCategory === category.value ? "default" : "outline"}
+              variant={
+                activeCategory === category.value ? "default" : "outline"
+              }
               onClick={() => setActiveCategory(category.value)}
               className="flex items-center gap-2"
               size="sm"
@@ -158,7 +187,7 @@ export function Portfolio() {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              
+
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <Badge variant="secondary" className="text-xs">
@@ -166,15 +195,33 @@ export function Portfolio() {
                   </Badge>
                   <div className="flex gap-2">
                     {item.liveUrl && (
-                      <Button size="sm" variant="ghost" className="h-8 w-8 p-0" asChild>
-                        <a href={item.liveUrl} target="_blank" rel="noopener noreferrer">
+                      <Button
+                        size="sm"
+                        variant="ghost"
+                        className="h-8 w-8 p-0"
+                        asChild
+                      >
+                        <a
+                          href={item.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <ExternalLink className="w-4 h-4" />
                         </a>
                       </Button>
                     )}
                     {item.githubUrl && (
-                      <Button size="sm" variant="ghost" className="h-8 w-8 p-0" asChild>
-                        <a href={item.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <Button
+                        size="sm"
+                        variant="ghost"
+                        className="h-8 w-8 p-0"
+                        asChild
+                      >
+                        <a
+                          href={item.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <Github className="w-4 h-4" />
                         </a>
                       </Button>
@@ -188,7 +235,7 @@ export function Portfolio() {
                 <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
                   {item.description}
                 </p>
-                
+
                 <div className="flex flex-wrap gap-2">
                   {item.tech.map((tech) => (
                     <Badge key={tech} variant="outline" className="text-xs">
@@ -204,9 +251,7 @@ export function Portfolio() {
         {/* View More Button */}
         <div className="text-center mt-12">
           <Button variant="outline" size="lg" asChild>
-            <a href="#contact">
-              Diskusi Project Baru
-            </a>
+            <a href="#contact">Diskusi Project Baru</a>
           </Button>
         </div>
       </div>
