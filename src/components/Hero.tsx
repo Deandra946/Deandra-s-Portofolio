@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { ArrowRight, Download } from "lucide-react";
-import exampleImage from 'figma:asset/a0af04c9253ccecf67ebe7bfe1bdf68303d81f13.png';
+import exampleImage from '@/assets/a0af04c9253ccecf67ebe7bfe1bdf68303d81f13.png';
 
 export function Hero() {
   return (
@@ -25,7 +25,7 @@ export function Hero() {
 
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
               Individu kreatif dan adaptif, siap berkembang di berbagai bidang
-              dengan semangat belajar tinggi.
+              dengan semangat belajar tinggi.{" "}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
