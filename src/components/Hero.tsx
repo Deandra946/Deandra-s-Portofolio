@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { ArrowRight, Download } from "lucide-react";
+import exampleImage from 'figma:asset/a0af04c9253ccecf67ebe7bfe1bdf68303d81f13.png';
 
 export function Hero() {
   return (
@@ -48,7 +49,7 @@ export function Hero() {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-primary/10 to-accent shadow-2xl">
                 <img
-                  src="/1.jpg"
+                  src={exampleImage}
                   alt="Deandra Maulidin"
                   className="w-full h-full object-cover"
                 />
