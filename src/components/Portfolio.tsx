@@ -20,6 +20,8 @@ import project5 from "../assets/portofolio/5.jpg";
 import project6 from "../assets/portofolio/6.jpg";
 import project7 from "../assets/portofolio/7.png";
 import project8 from "../assets/portofolio/8.jpg";
+import project9 from "../assets/portofolio/Group 13 (1).png";
+import project10 from "../assets/portofolio/Group 6.png";
 // import project2 from "figma:asset/portfolio/2.jpg";
 // Tambahkan sesuai jumlah gambar
 
@@ -122,6 +124,26 @@ const portfolioItems: PortfolioItem[] = [
       "Digitalisasi sistem administrasi TPQ dari manual ke digital dengan membuat aplikasi sederhana agar penginputan data lebih cepat dan simple.",
     tech: ["Excel", "Data Entry", "Database Design", "Administration"],
     type: "Data Management",
+  },
+  {
+    id: 9,
+    title: "Design kaos supporter",
+    category: "uiux",
+    image: project9,
+    description:
+      "Desain kaos supporter menggunakan figma",
+    tech: ["Design", "Apparel design"],
+    type: "Design",
+  },
+  {
+    id: 10,
+    title: "Design jersey",
+    category: "uiux",
+    image: project10,
+    description:
+      "Desain Jersey bola menggunakan figma",
+    tech: ["Design", "Apparel design"],
+    type: "Design",
   },
 ];
 
