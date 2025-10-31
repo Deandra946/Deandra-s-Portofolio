@@ -128,7 +128,7 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 9,
     title: "Design kaos supporter",
-    category: "uiux",
+    category: "design",
     image: project9,
     description:
       "Desain kaos supporter menggunakan figma",
@@ -138,7 +138,7 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 10,
     title: "Design jersey",
-    category: "uiux",
+    category: "design",
     image: project10,
     description:
       "Desain Jersey bola menggunakan figma",
@@ -153,6 +153,7 @@ const categories = [
   { name: "Photography", value: "photography", icon: Camera },
   { name: "Copywriting", value: "copywriting", icon: PenTool },
   { name: "Administrasi", value: "administration", icon: Database },
+  { name: "Design", value: "design", icon: PenTool },
 ];
 
 export function Portfolio() {
