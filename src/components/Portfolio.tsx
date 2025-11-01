@@ -20,13 +20,8 @@ import project5 from "../assets/portofolio/5.jpg";
 import project6 from "../assets/portofolio/6.jpg";
 import project7 from "../assets/portofolio/7.png";
 import project8 from "../assets/portofolio/8.jpg";
-<<<<<<< HEAD
-import project9 from "../assets/portofolio/Group 13 (1).png";
-import project10 from "../assets/portofolio/Group 6.png";
-=======
 import project9 from "../assets/portofolio/9.png";
 import project10 from "../assets/portofolio/10.png";
->>>>>>> adbf914 (Update portfolio images and content)
 // import project2 from "figma:asset/portfolio/2.jpg";
 // Tambahkan sesuai jumlah gambar
 
