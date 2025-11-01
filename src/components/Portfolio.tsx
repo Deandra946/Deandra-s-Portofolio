@@ -132,40 +132,22 @@ const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 9,
-<<<<<<< HEAD
     title: "Design kaos supporter",
     category: "design",
     image: project9,
     description:
       "Desain kaos supporter menggunakan figma",
     tech: ["Design", "Apparel design"],
-=======
-    title: "Desain Jersey",
-    category: "design",
-    image: project9,
-    description:
-      "Desain jersey bola menggunakan software desain figma.",
-    tech: ["desain", "Apparel Desain"],
->>>>>>> adbf914 (Update portfolio images and content)
     type: "Design",
   },
   {
     id: 10,
-<<<<<<< HEAD
     title: "Design jersey",
     category: "design",
     image: project10,
     description:
       "Desain Jersey bola menggunakan figma",
     tech: ["Design", "Apparel design"],
-=======
-    title: "Desain kaos supporter",
-    category: "design",
-    image: project10,
-    description:
-      "Desain kaos supporter menggunakan software desain figma.",
-    tech: ["desain", "Apparel Desain"],
->>>>>>> adbf914 (Update portfolio images and content)
     type: "Design",
   },
 ];
