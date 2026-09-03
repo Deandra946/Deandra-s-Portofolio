@@ -69,29 +69,6 @@ const experiences = [
       "Client Relations",
     ],
   },
-  {
-    title: "Administrasi TPQ",
-    company: "TPQ Lokal",
-    location: "Wonosobo",
-    period: "2022 - Sekarang",
-    duration: "1 tahun",
-    type: "Organisasi",
-    icon: FileSpreadsheet,
-    description:
-      "Bertanggung jawab dalam pengelolaan data administrasi TPQ termasuk data siswa, jadwal, dan laporan kegiatan menggunakan sistem digital.",
-    responsibilities: [
-      "Mengelola database siswa dan guru TPQ",
-      "Membuat laporan kegiatan dan presensi",
-      "Digitalisasi sistem administrasi manual",
-      "Koordinasi dengan pengurus untuk kebutuhan data",
-    ],
-    skills: [
-      "Data Management",
-      "Microsoft Office",
-      "Database Entry",
-      "Administration",
-    ],
-  },
 ];
 
 export function Experience() {
