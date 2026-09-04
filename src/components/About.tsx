@@ -33,6 +33,20 @@ const skills = [
     ]
   },
   {
+    category: "Administrasi & Dokumentasi",
+    items: [
+      { name: "Microsoft Excel, Word & PowerPoint", icon: FileSpreadsheet, level: 90 },
+      { name: "Koordinasi & Komunikasi Tim", icon: FileText, level: 90 },
+      { name: "Monitoring & Update Progres", icon: FileText, level: 90 },
+      { name: "Follow-up Pekerjaan", icon: FileText, level: 90 },
+      { name: "Pendataan & Pengelolaan Aset IT Dasar", icon: FileSpreadsheet, level: 85 },
+      { name: "Ketelitian & Manajemen Data", icon: FileSpreadsheet, level: 90 },
+      { name: "Problem Solving & Adaptasi", icon: Code, level: 90 },
+      { name: "UI/UX Design", icon: Figma, level: 85 },
+      { name: "Web Development (HTML, CSS, JavaScript, Laravel, Bootstrap, Tailwind CSS)", icon: Code, level: 85 }
+    ]
+  },
+  {
     category: "Kreatif",
     items: [
       { name: "Copywriting", icon: PenTool, level: 85 },
@@ -71,8 +85,16 @@ export function About() {
                 Maulidin
               </p>
               <p>
-                <strong className="text-foreground">Jurusan:</strong>{" "}
-                Pengembangan Perangkat Lunak dan Gim (PPLG)
+                <strong className="text-foreground">Pendidikan Saat Ini:</strong>{" "}
+                Mahasiswa Teknik Informatika, Universitas Budi Luhur
+              </p>
+              <p>
+                <strong className="text-foreground">Periode:</strong>{" "}
+                Juli 2026 - Sekarang
+              </p>
+              <p>
+                <strong className="text-foreground">Pendidikan Sebelumnya:</strong>{" "}
+                SMK Muhammadiyah 1 Wonosobo - Pengembangan Perangkat Lunak dan Gim (PPLG)
               </p>
               <p>
                 <strong className="text-foreground">Focus Area:</strong> Web

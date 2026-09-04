@@ -19,8 +19,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "deandramaulidin511@gmail.com",
-    href: "mailto:deandramaulidin511@gmail.com"
+    value: "deandramaulidin4@gmail.com",
+    href: "mailto:deandramaulidin4@gmail.com"
   },
   {
     icon: MessageCircle,
@@ -31,7 +31,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Lokasi",
-    value: "Wonosobo, Jawa Tengah",
+    value: "Cilandak, Jakarta Selatan",
     href: "#",
   },
 ];

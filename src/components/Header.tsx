@@ -28,6 +28,7 @@ export function Header() {
     { name: "Beranda", href: "#home" },
     { name: "Tentang", href: "#about" },
     { name: "Portofolio", href: "#portfolio" },
+    { name: "Sertifikasi", href: "#certifications" },
     { name: "Pengalaman", href: "#experience" },
     { name: "Kontak", href: "#contact" },
   ];

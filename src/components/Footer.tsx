@@ -16,6 +16,7 @@ export function Footer() {
     { name: "Beranda", href: "#home" },
     { name: "Tentang", href: "#about" },
     { name: "Portofolio", href: "#portfolio" },
+    { name: "Sertifikasi", href: "#certifications" },
     { name: "Pengalaman", href: "#experience" },
     { name: "Kontak", href: "#contact" }
   ];
@@ -46,7 +47,7 @@ export function Footer() {
     },
     {
       icon: Mail,
-      href: "mailto:deandramaulidin511@gmail.com",
+      href: "mailto:deandramaulidin4@gmail.com",
       label: "Email",
     },
   ];
@@ -76,7 +77,7 @@ export function Footer() {
             <div className="flex items-start gap-3 text-sm text-muted-foreground mb-6">
               <MapPin className="h-4 w-4 mt-0.5 text-primary" />
               <div>
-                <p className="font-medium text-foreground">Bomerto, kec. Wonosobo, kab. Wonosobo, Jawa Tengah</p>
+                <p className="font-medium text-foreground">Cilandak, Jakarta Selatan</p>
                
               </div>
             </div>
